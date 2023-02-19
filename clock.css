@@ -1,0 +1,164 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: poppins;
+}
+
+.header{
+  width: 100%;
+  height: 4rem;
+  background-color: rgb(77, 80, 82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header span{
+  color: #fff;
+}
+
+.clock-card{
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-con{
+  min-width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border:  2rem solid white;
+}
+
+.clock-con span{
+  position: relative;
+  font-size: 2rem;
+  margin: 1rem 0rem;
+
+}
+
+
+.clock-con span:nth-child(1){
+  left: 18rem;
+  top: -9.6rem;
+}
+
+.clock-con span:nth-child(2){
+  left: 21rem;
+  top: -5.8rem;
+}
+
+.clock-con span:nth-child(3){
+  left: 22rem;
+  top: 0rem;
+}
+
+.clock-con span:nth-child(4){
+  left: 19rem;
+  top: 6rem;
+}
+
+.clock-con span:nth-child(5){
+  left: 14rem;
+  top: 10rem;
+}
+
+.clock-con span:nth-child(6){
+  left: 6.7rem;
+  top: 11.7rem;
+}
+
+.clock-con span:nth-child(7){
+  left: 0rem;
+  top: 10rem;
+}
+
+.clock-con span:nth-child(8){
+  left: -6rem;
+  top: 5.5rem;
+}
+
+.clock-con span:nth-child(9){
+  left: -9.2rem;
+  top: 0rem;
+}
+
+.clock-con span:nth-child(10){
+  left: -8rem;
+  top: -6rem;
+}
+
+.clock-con span:nth-child(11){
+  left: -5.4rem;
+  top: -10rem;
+}
+
+.clock-con span:nth-child(12){
+  left: -1.5rem;
+  top: -11.5rem;
+}
+
+
+
+.center{
+  width: 1rem;
+  height: 1rem;
+  background-color: rgb(136, 133, 133);
+  margin: 0 12rem;
+  position:absolute;
+  border-radius: 50%;
+  border: .5rem solid white;
+}
+
+
+.move{
+  min-width: 25rem;
+  height: 25rem;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  position:absolute;
+}
+
+
+
+.hr{
+  width:15%;
+  height: .2rem;
+  background-color: rgb(17, 0, 250);
+  margin: 0 12.9rem;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  position: absolute;
+  transform-origin: 0% 0%;
+
+}
+
+.min{
+  width: 25%;
+  height: .2rem;
+  background-color: rgb(226, 17, 34);
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  margin: 0 12.9rem;
+  position: absolute;
+  transform-origin: 0% 0%;
+
+}
+
+.sec{
+  width:40%;
+  height: .2rem;
+  background-color: rgb(233, 218, 5);
+  margin: 0rem 12.9rem;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  position: absolute;
+  transform-origin: 0% 0%;
+  
+}
